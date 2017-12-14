@@ -1,24 +1,13 @@
-# README
+# HOMEWORK!!!!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+-Build a rails app that uses postgresql
 
-Things you may want to cover:
+-Run a controller generator Pages, with at least 5 pages
 
-* Ruby version
+Install bootstrap,
 
-* System dependencies
+-Get one of the bootstrap nav bars we built today (or any bootstrap nav) to work on your new app.
 
-* Configuration
+-Push to git hub
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
