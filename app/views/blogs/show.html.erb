@@ -1,0 +1,12 @@
+<h1><%= @blog.title.upcase %></h1>
+
+
+<div>
+  <%= blog.author %>
+  <%= blog.date %>
+  <%= blog.body %>
+
+</div>
+
+<%= link_to 'Edit', edit_blog_path %>
+<%= link_to 'Back', blogs_path %>
