@@ -1,0 +1,15 @@
+<div class="new-blog">
+  <div class="row">
+    <div class="col-sm-6">
+      <div class="text-left">
+        <h2>New Blog</h2>
+      </div>
+      <div class="form marg">
+        <%= render 'form', blag: @blog %>
+      </div>
+      <div class="marg">
+        <%= link_to 'Back', blogs_path %>
+      </div>
+    </div>
+  </div>
+</div>

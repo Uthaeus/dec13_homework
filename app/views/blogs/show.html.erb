@@ -1,12 +1,18 @@
-<h1><%= @blog.title.upcase %></h1>
+<h1 class="show-title"><%= @blog.title.upcase %></h1>
 
 
-<div>
-  <%= blog.author %>
-  <%= blog.date %>
-  <%= blog.body %>
+<div class="row">
+  <div class="col-sm-8">
+    <div>
+      <%= @blog.author %>
+      <%= @blog.date %>
+    </div>
+    <%= @blog.body %>
+  </div>
 
 </div>
 
-<%= link_to 'Edit', edit_blog_path %>
-<%= link_to 'Back', blogs_path %>
+<div class="generic-buttons">
+  <%= link_to 'Edit', edit_blog_path, class: 'btn btn-sm' %> |
+  <%= link_to 'Back', blogs_path, class: 'btn btn-sm' %>
+</div>
